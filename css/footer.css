@@ -1,0 +1,36 @@
+
+#footer_arch{
+	overflow:auto;
+	background-image:url("../img/bg_footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:524px;
+}
+
+#footer2{
+	position:relative;
+	margin-left:25%;
+	margin-top:280px;
+	width:50%;
+}
+
+#footer_menu{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap; 
+	justify-content:space-between;
+}
+
+#copyright{
+  font-size: 14px;
+  font-family: "Gotham";
+  color: white;
+  line-height: 1.571;
+}
+
+#footer3{
+	margin-top:50px;
+	justify-content:space-between;
+}
+

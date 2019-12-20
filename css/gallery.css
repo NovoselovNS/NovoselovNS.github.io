@@ -1,0 +1,62 @@
+
+#gallery{
+	align-items: center;
+	justify-content: center;
+	overflow:auto;
+	width:100%;
+	background-color: white;
+	z-index:3;
+}
+
+.line_2{
+	margin-top:110px;
+	position:absolute;
+	height:1px;
+	width:100px;
+	background-color: rgb(44, 64, 88);
+}
+
+#gallery h3{
+	font-size: 44px;
+	font-family: "Gotham";
+	color: rgb(44, 64, 88);
+	text-transform: uppercase;
+	line-height: 0.5;
+	text-align: center;
+	margin-top:140px;
+}
+
+.grid_container{
+	margin-top:100px;
+	display: grid;  
+	grid-template-areas: "m m 1 2"  
+					   "m m 4 3";  
+	grid-template-columns: 1fr 1fr 1fr;  
+	grid-template-rows: 1fr 1fr; 
+	grid-gap:1vh;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;	
+}
+
+.grid_img{
+	position:relative;
+	width:20vw;
+	
+}
+
+#main_img{
+	grid-area:m;
+	width: 38vw;
+	height:30.47vw;
+}
+
+
+#gallery .nice_button{
+	margin-top:60px;
+}
+
+
+#see_more{
+	margin-top:100px;
+}

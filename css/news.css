@@ -1,0 +1,115 @@
+
+.line_{
+	margin-top:100px;
+	background-color: white;
+	width: 100px;
+	height: 1px;
+}
+
+#news{
+	overflow:auto;
+	margin-top:200px;
+	width:100%;
+	height:auto;
+	background-image: url("../img/bg_news.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#news_title{
+	margin-top:60px;
+	margin-bottom:100px;
+	color: white;
+	font-size:50px;
+	text-align: center;
+}
+
+#latest_news{
+	margin-bottom:100px;
+	margin-left:5%;
+	margin-right:5%;
+	width:90%;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+	height:auto;
+}
+
+.news_item{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	position:relative;
+	width:370px;
+	height:500px;
+	background-color:white;
+}
+
+.news_item h4{
+	font-size: 22px;
+	font-family: "Gotham";
+	color: rgb(44, 64, 88);
+	font-weight: bold;
+	line-height: 1.545;
+	text-align: left;
+	text-transform: uppercase;
+	margin:20px;
+}
+
+.news_item .news_content{
+	font-size: 18px;
+	font-family: "Open Sans",sans-serif;
+	color: rgb(75, 85, 98);
+	line-height: 1.667;
+	text-align: left;
+	margin-left:25px;
+	margin-top:-20px;
+	width:280px;
+}
+
+.author_block{
+	background-color:white;
+	display:flex;
+	margin:10px;
+}
+
+.auth_namendate{
+	display:block;
+}
+
+.avatar{
+	width: 60px;
+	height: 60px;
+}
+
+
+.auth_name{
+	font-size: 18px;
+	font-family: "Gotham";
+	color: rgb(44, 64, 88);
+	text-transform: uppercase;
+	line-height: 1.222;
+	text-align: left;
+	margin-left:20px;
+	margin-top:5px;
+}
+
+.auth_date{
+	font-size: 14px;
+	font-family: "Gotham";
+	color: rgb(85, 183, 255);
+	line-height: 1.571;
+	margin-left:20px;
+	margin-top:0.2em;
+}
+
+
+.news_item h3{
+  font-size: 44px;
+  font-family: "Gotham";
+  color: rgb(44, 64, 88);
+  text-transform: uppercase;
+  line-height: 0.5;
+  text-align: center;
+  margin-top:-2em;
+}
